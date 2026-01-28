@@ -1,4 +1,4 @@
-name: Portfolio Updates
+name: Portfolio Update Check
 
 on:
   push:
@@ -6,27 +6,37 @@ on:
   workflow_dispatch:
 
 jobs:
-  update:
+  check:
     runs-on: ubuntu-latest
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
     
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.9'
-    
-    - name: Display portfolio info
+    - name: Display Portfolio Information
       run: |
-        echo "🎯 Portfolio Update"
-        echo "=================="
-        echo "Repository: $GITHUB_REPOSITORY"
-        echo "Branch: $GITHUB_REF_NAME"
-        echo "Last updated: $(date)"
+        echo "🎯 Portfolio Status Check"
+        echo "========================"
         echo ""
-        echo "📊 Case Studies:"
-        find case-studies -name "README.md" | while read file; do
-          echo "- $(basename $(dirname $file))"
+        echo "📊 Repository: ${{ github.repository }}"
+        echo "🌿 Branch: ${{ github.ref_name }}"
+        echo "📅 Last updated: $(date)"
+        echo ""
+        echo "📁 Case Studies Found:"
+        count=0
+        for dir in case-studies/*/; do
+          if [ -d "$dir" ]; then
+            dir_name=$(basename "$dir")
+            echo "  ✓ $dir_name"
+            ((count++))
+          fi
+        done
+        echo ""
+        echo "📈 Total Case Studies: $count"
+        echo "✅ Portfolio structure is valid"
+        echo ""
+        # Check for README files
+        echo "📄 README Files:"
+        find . -name "README.md" -type f | head -5 | while read file; do
+          echo "  - $file"
         done

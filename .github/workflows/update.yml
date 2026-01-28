@@ -4,8 +4,6 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
-  schedule:
-    - cron: '0 9 * * 1'  # Every Monday at 9 AM
 
 jobs:
   update:
@@ -15,11 +13,20 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
     
-    - name: Update timestamp
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Display portfolio info
       run: |
-        echo 'Last automated update: $(date)' > .last-updated
-        git config user.name 'GitHub Actions Bot'
-        git config user.email 'actions@github.com'
-        git add .last-updated
-        git commit -m 'Auto-update: $(date)' || exit 0
-        git push
+        echo "🎯 Portfolio Update"
+        echo "=================="
+        echo "Repository: $GITHUB_REPOSITORY"
+        echo "Branch: $GITHUB_REF_NAME"
+        echo "Last updated: $(date)"
+        echo ""
+        echo "📊 Case Studies:"
+        find case-studies -name "README.md" | while read file; do
+          echo "- $(basename $(dirname $file))"
+        done

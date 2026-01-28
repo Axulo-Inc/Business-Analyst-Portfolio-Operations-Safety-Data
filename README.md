@@ -85,3 +85,4 @@
 
 **Last Updated:** 2026-01-28
 **Portfolio Version:** 1.1
+- [Safety & Risk Management System](./case-studies/02-safety-risk-tracker) - Digital safety platform with 1,385 lines of comprehensive BA documentation

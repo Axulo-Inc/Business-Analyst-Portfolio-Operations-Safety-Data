@@ -1,5 +1,9 @@
 name: Portfolio Update Check
 
+concurrency:
+  group: "portfolio-update"
+  cancel-in-progress: true
+
 on:
   push:
     branches: [ main ]

@@ -1,0 +1,25 @@
+name: Portfolio Updates
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 9 * * 1'  # Every Monday at 9 AM
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: Update timestamp
+      run: |
+        echo 'Last automated update: $(date)' > .last-updated
+        git config user.name 'GitHub Actions Bot'
+        git config user.email 'actions@github.com'
+        git add .last-updated
+        git commit -m 'Auto-update: $(date)' || exit 0
+        git push

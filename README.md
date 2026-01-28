@@ -2,7 +2,7 @@
 ## Thabang Alfred Motsoahae
 
 [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github)](https://github.com/Axulo-Inc/BA-Portfolio)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/thabang-alfred-motsoahae-2216171b2/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/thabang-motsoahae-10272b96)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:alfred_the_first@hotmail.com)
 
 ---
@@ -68,7 +68,7 @@
 **📍 Location:** Johannesburg, South Africa  
 **💼 Status:** Open to Business Analyst & Data Analyst opportunities  
 **📧 Email:** [alfred_the_first@hotmail.com](mailto:alfred_the_first@hotmail.com)  
-**🔗 LinkedIn:** [Thabang Alfred Motsoahae](https://www.linkedin.com/in/thabang-alfred-motsoahae-2216171b2/)  
+**🔗 LinkedIn:** [Thabang Alfred Motsoahae](https://www.linkedin.com/in/thabang-motsoahae-10272b96)  
 **🌐 Portfolio:** [https://github.com/Axulo-Inc/BA-Portfolio](https://github.com/Axulo-Inc/BA-Portfolio)
 
 ---

@@ -29,19 +29,19 @@ Manual paper-based safety reporting systems caused significant delays in hazard 
 ## Project Artifacts
 This case study includes comprehensive documentation:
 
-### 📋 [User Requirements Document](./documents/urd.md) - 293 lines
+### 📋 [User Requirements Document](./documents/urd.md) - 338 lines
 Complete business requirements with user stories, functional requirements, and acceptance criteria.
 
 ### 🔧 [API Documentation](./artifacts/api-docs.md) - 137 lines
 Comprehensive REST API specifications covering authentication, hazard management, dashboard, and error handling.
 
-### 🏗️ [System Architecture](./artifacts/architecture.md) - 78 lines
+### 🏗️ [System Architecture](./artifacts/architecture.md) - 585 lines
 Microservices design with deployment strategy, security considerations, and scalability planning.
 
-### ✅ [Test Cases](./artifacts/test-cases.md) - 113 lines
+### ✅ [Test Cases](./artifacts/test-cases.md) - 325 lines
 Comprehensive testing strategy with test scenarios covering functional, integration, and performance testing.
 
-**Total Documentation:** 651 lines of professional business analysis artifacts.
+**Total Documentation:** 1,385 lines of professional business analysis artifacts.
 
 ## Key Features
 1. **Mobile Reporting:** Field workers can report hazards in under 3 minutes
@@ -85,9 +85,9 @@ This case study includes comprehensive documentation:
 
 | Artifact | Description | Lines |
 |----------|-------------|-------|
-| [User Requirements Document](./documents/urd.md) | Business requirements with user stories | 293 |
+| [User Requirements Document](./documents/urd.md) | Business requirements with user stories | 338 |
 | [API Documentation](./artifacts/api-docs.md) | REST API specifications | 137 |
-| [System Architecture](./artifacts/architecture.md) | Microservices design | 78 |
-| [Test Cases](./artifacts/test-cases.md) | Testing strategy & scenarios | 113 |
+| [System Architecture](./artifacts/architecture.md) | Microservices design | 585 |
+| [Test Cases](./artifacts/test-cases.md) | Testing strategy & scenarios | 325 |
 
-**Total Documentation:** 621 lines of professional business analysis artifacts
+**Total Documentation:** 1,385 lines of professional business analysis artifacts

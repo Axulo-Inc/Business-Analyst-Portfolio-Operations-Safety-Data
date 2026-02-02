@@ -3,7 +3,7 @@
 **Thabang Alfred Motsoahae**  
 Business Analyst | Operations, Safety & Data Systems
 
-I translate **complex operational problems** into **structured requirements, measurable KPIs, and scalable digital solutions**. With a strong bias toward execution in **safety-critical, real-world environments**.
+I translate **complex operational problems** into **structured requirements, measurable KPIs, and scalable digital solutions**. With a strong bias toward execution and measurable business outcomes in **safety-critical, real-world environments.**.
 
 📍 Johannesburg, South Africa  
 💼 Open to full-time, contract, and consulting roles  
@@ -48,20 +48,20 @@ https://github.com/Axulo-Inc/Business-Analyst-Portfolio-Operations-Safety-Data
 
 ## 🛠️ Technical Toolbox
 
-### Programming & Databases
-![Python](https://img.shields.io/badge/Python-Expert-3776AB?logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-Advanced-4479A1?logo=postgresql&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-Intermediate-009688?logo=fastapi&logoColor=white)
+### Business Analysis Tools
+![Figma](https://img.shields.io/badge/Figma_Prototyping-Intermediate-F24E1E?logo=figma&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-Intermediate-0052CC?logo=jira&logoColor=white)
+![Process Mapping](https://img.shields.io/badge/Process_Mapping-Advanced-FF6600)
 
 ### Data Visualization & BI
 ![Power BI](https://img.shields.io/badge/Power_BI-Advanced-F2C811?logo=powerbi&logoColor=black)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Intermediate-FF4B4B?logo=streamlit&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel_Advanced-Expert-217346?logo=microsoftexcel&logoColor=white)
 
-### Business Analysis Tools
-![Figma](https://img.shields.io/badge/Figma_Prototyping-Intermediate-F24E1E?logo=figma&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-Intermediate-0052CC?logo=jira&logoColor=white)
-![Process Mapping](https://img.shields.io/badge/Process_Mapping-Advanced-FF6600)
+### Programming & Databases
+![Python](https://img.shields.io/badge/Python-Expert-3776AB?logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Advanced-4479A1?logo=postgresql&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Intermediate-009688?logo=fastapi&logoColor=white)
 
 ### Domain Expertise
 ![Mining Operations](https://img.shields.io/badge/Mining_Operations-Expert-8B4513)
@@ -77,13 +77,12 @@ https://github.com/Axulo-Inc/Business-Analyst-Portfolio-Operations-Safety-Data
 
 ---
 
-## 📫 Contact & Availability
+## 📫 Contact Details
 
-**📍 Location:** Johannesburg, South Africa  
-**💼 Status:** Open to Business Analyst & Data Analyst opportunities  
+ 
 **📧 Email:** [alfred_the_first@hotmail.com](mailto:alfred_the_first@hotmail.com)  
 **🔗 LinkedIn:** [Thabang Alfred Motsoahae](https://www.linkedin.com/in/thabang-motsoahae-10272b96)  
-**🌐 Portfolio:** [https://github.com/Axulo-Inc/BA-Portfolio](https://github.com/Axulo-Inc/BA-Portfolio)
+**🌐 Portfolio:** [https://github.com/Axulo-Inc/BA-Portfolio](https://github.com/Axulo-Inc/Business-Analyst-Portfolio-Operations-Safety-Data)
 
 ---
 
